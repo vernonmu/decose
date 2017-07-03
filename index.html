@@ -6,6 +6,29 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   </head>
   <body ng-controller="mainCtrl">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Decose Local</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -17,12 +40,13 @@
 
     </div>
 
-    <script src="/bower_components/dist/jquery.js" charset="utf-8"></script>
-    <script src="/bower_components/dist/js/bootstrap.js" charset="utf-8"></script>
-    <script src="/bower_components/angular/angular.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="./bower_components/tether/dist/js/tether.js" charset="utf-8"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="./bower_components/angular/angular.js"></script>
 
 
-    <script src="app.js" charset="utf-8"></script>
-    <script src="mainCtrl.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+    <script src="./mainCtrl.js" charset="utf-8"></script>
   </body>
 </html>
